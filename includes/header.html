@@ -1,0 +1,73 @@
+<?php # header.html
+
+// Start output buffering and initialize a session.
+ob_start();
+session_start();
+
+// Check for a $page_title value
+if(!isset($page_title))
+{
+	$page_title = "Solomon Liou's Website";
+}
+?>
+
+<!doctype html>
+<html class="no-js" lang="en">
+
+<head>
+<meta name="keywords" content="Solomon Liou" />
+<meta name="description" content="Solomon Liou's Website" />
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+<title><?php echo $page_title; ?></title>
+<link href='http://fonts.googleapis.com/css?family=Open+Sans:400,400italic,700,700italic|Dosis:400,800' rel='stylesheet' type='text/css'>
+<link rel="stylesheet" href="css/foundation.css" />
+<link rel="stylesheet" href="css/style.css" />
+
+<script src="js/vendor/modernizr.js"></script>
+
+</head>
+
+<header>
+
+  <!-- Small screen nav -->
+  <nav class="top-bar show-for-small" data-topbar role="navigation" data-options="is_hover: false" data-options="sticky_on">
+    <ul class="title-area">
+      <li class="name">
+        <h1><a href="#">Solomon Liou's Homepage</a></h1>
+      </li>
+      <li class="toggle-topbar menu-icon"><a href="#"><span></span></a></li>
+    </ul>
+    <section class="top-bar-section">
+      <ul class="right">
+        <li><a href="#head">Home</a></li>
+        <li><a href="#about">About Me</a></li>
+        <li><a href="#social">Social</a></li>
+        <li ><a href="#contact">Contact</a></li>
+      </ul> 
+    </section>
+  </nav>
+
+  <!-- Medium screen nav -->
+  <nav class ="top-bar hide-for-small">
+    <ul class="title-area">
+      <li class="name">
+        <h1><a href="index.php">Solomon Liou's Homepage</a></h1>
+      </li>
+    </ul>
+    <section class="top-bar-section">
+      <ul class="right">
+        <li class="divider"></li>
+        <li data-magellan-arrival="head" class="trans"><a href="#head">Home</a></li>
+        <li class="divider"></li>
+        <li data-magellan-arrival="about" class="trans"><a href="#about">About Me</a></li>
+        <li class="divider"></li>
+        <li data-magellan-arrival="social" class="trans"><a href="#social">Social</a></li>
+        <li class="divider"></li>
+        <li data-magellan-arrival="contact" class="trans"><a href="#contact">Contact</a></li>
+      </ul>        
+    </section>
+  </nav>  
+
+</header>

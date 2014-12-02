@@ -1,0 +1,190 @@
+nav * {
+	line-height: 45px;
+	margin: 0px;
+}
+
+nav h1 {
+	line-height: 45px !important;
+}
+
+#topnavbar {
+	margin-top: 10px;
+}
+
+#name {
+	margin-top: 10px;
+}
+
+#head {
+	background-color: #336699;
+}
+
+#head * {
+	color: #fff;
+}
+
+#about {
+	background-color: #003366;
+}
+
+#about * {
+	color: #fff;
+}
+
+#map {
+	max-height: 300px;
+}
+
+#social {
+	background-color: #d7d7d7;
+}
+
+#social * {
+	color: #fff;
+}
+
+#contact {
+	background-color: #000044;
+}
+
+#contact * {
+	color: #fff;
+}
+
+
+#formfield {
+	background-color: #000000;
+	color: #fff;
+}
+
+
+#formfield * {
+	color: #fff;
+}
+
+#footer {
+	background-color: #fff;
+}
+
+#footer * {
+	color: #000000;
+}
+
+
+.bmargin {
+	margin-bottom: 80px;
+}
+
+.bmargin-top {
+	margin-top: 80px;
+}
+
+.mmargin {
+	margin-bottom: 40px;
+}
+
+.mmargin-top {
+	margin-top: 40px;
+}
+
+.smargin {
+	margin-bottom: 20px;
+}
+
+.smargin-top {
+	margin-top: 20px;
+}
+
+.secondary {
+	opacity: 0.7;
+}
+
+.slim {
+	font-weight: 200;
+}
+
+.nowrap {
+	white-space: nowrap;
+}
+
+.pos-rel {
+	position: relative;
+}
+
+.down-triangle {
+	width: 0px;
+	height: 0px;
+	border-style: solid;
+	border-width: 30px 30px 0 30px;
+	border-color: #fff transparent transparent transparent;
+	position: absolute;
+	left: 45%;
+	margin: auto;
+	bottom: -20px;
+}
+
+.circle {
+	border-radius: 1000px;
+	border: 6px solid #fff;
+}
+
+.hoverup {
+	opacity: 0.9;
+	position: relative;
+}
+
+.hoverup:hover{
+	top: -10px;
+	opacity: 1;
+}
+
+.trans{
+	-webkit-transition: all 0.3s cubic-bezier(0,.83,.27,.99);
+	-moz-transition: all 0.3s cubic-bezier(0,.83,.27,.99);
+	-ms-transition: all 0.3s cubic-bezier(0,.83,.27,.99);
+	-o-transition: all 0.3s cubic-bezier(0,.83,.27,.99);
+	transition: all 0.3s cubic-bezier(0,.83,.27,.99);
+}
+
+input, textarea {
+	min-height: 50px !important;
+	padding: 9px !important;
+	background-color: #aaaac0 !important;
+	border: none !important;
+	outline: none !important;
+	box-shadow: none !important;
+}
+
+input:focus, textarea:focus {
+	background-color: #aaaac0;
+}
+
+
+
+.copyright {
+	font-size: 80%;
+	opacity: 80%;
+	margin-bottom: 20px;
+}
+
+
+
+::-webkit-input-placeholder {
+   color: #fff;
+   opacity: .7;
+}
+
+:-moz-placeholder { /* Firefox 18- */
+   color: #fff;  
+   opacity: .7;
+}
+
+::-moz-placeholder {  /* Firefox 19+ */
+   color: #fff;  
+   opacity: .7;
+}
+
+:-ms-input-placeholder {  
+   color: #fff;  
+   opacity: .7;
+}
